@@ -40,6 +40,34 @@ Current master
 - Added full support for RxSwift 4.2.0
 - UIRefreshControl support: binding to an action (or CocoaAction) starts the action itself and updates the control's refreshing status
 
+3.9.1
+-----
+
+- Less restrictive RxSwift/RxCocoa dependencies in podspec, now supporting RxSwift/RxCocoa 4.x starting with version 4.3
+
+3.9.0
+-----
+- Fix Action Demo build failure
+- Added missing support for Swift 4.2 after 3.7.0
+
+
+3.8.0
+-----
+
+- Fix build failure on New Build System (default on Xcode 10) [#151](https://github.com/RxSwiftCommunity/Action/pull/151)
+
+3.7.0
+-----
+- Added full support for Swift 4.2
+- Added full support for RxSwift 4.3
+
+3.6.0
+-----
+- Updated `Semantic Versioning` to reflect what is actaully released both on `Pod`  and `Carthage`
+- Added full support for Swift 4.1
+- Added full support for RxSwift 4.2.0
+- UIRefreshControl support: binding to an action (or CocoaAction) starts the action itself and updates the control's refreshing status
+
 3.5.0
 -----
 
